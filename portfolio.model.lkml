@@ -1,6 +1,5 @@
 connection: "@{database}"
 
-# include: "/views/*.view.lkml"                # include all views in the views/ folder in this project
 include: "/**/*.view.lkml"                 # include all views in this project
 include: "UDD/dashboards/*.dashboard.lookml"   # include a LookML dashboard called my_dashboard
 
